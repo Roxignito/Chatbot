@@ -1,5 +1,8 @@
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 import torch
+from gtts import gTTS
+import os
+import IPython
 
 class ChatBot:
     def __init__(self, model_name):
@@ -21,3 +24,10 @@ while True:
         break
     response = bot.chat(user_input)
     print("ChatBot:", response
+    language = 'en'
+    audio_file = gTTS(text=  response, lang=language, slow=False) 
+    
+    audio_file.save("audio.mp3")
+    file = "./audio.mp3"
+    IPython.display.display(IPython.display.Audio(file))
+
