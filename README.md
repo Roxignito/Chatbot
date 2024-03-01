@@ -8,7 +8,7 @@ Welcome to the Chatbot Project! This chatbot is designed to provide users with a
 
 - **Interactive Conversations:** Engages users with natural and responsive dialogues.
 - **Customizable Responses:** Offers a framework to customize replies and conversation flows.
-- **AI-Powered:** Utilizes advanced AI models (e.g., GPT) for understanding and generating human-like responses.
+- **AI-Powered:** Utilizes advanced AI models (e.g., LLM-Lite)for understanding and generating human-like responses.
 - **Multilingual Support:** Capable of communicating in multiple languages.
 - **Integration Ready:** Designed to integrate with websites, applications, and social media platforms.
 
